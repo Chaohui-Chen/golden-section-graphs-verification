@@ -1,0 +1,21 @@
+NetworkX version: 3.7
+Connected unlabeled Graph Atlas counts: {1: 1, 2: 1, 3: 2, 4: 6, 5: 21, 6: 112, 7: 853}
+[Lemma 2.5 / seven exceptional graphs in H_plus]
+  PASS  K1 join P3                   eta=2
+  PASS  K1 join P4                   eta=2
+  PASS  K1 join C5                   eta=2
+  PASS  C5                           eta=(5/2)+(-1/2)*sqrt(5)
+  PASS  complement W(3,3)            eta=2
+  PASS  K1 join (K2 union K2)        eta=(7/2)+(1/2)*sqrt(5)
+  PASS  K1 join (K2 union K3)        eta=(9)+(3)*sqrt(5)
+[Lemma 3.1 / connected graphs with least eigenvalue >= -phi]
+  PASS  all connected unlabeled graphs through order 7
+  PSD counts by order: {1: 1, 2: 1, 3: 2, 4: 4, 5: 6, 6: 7, 7: 4}
+[Lemma 3.2 / fixed forbidden induced subgraphs]
+  PASS  min eigenvalue < -phi for S1..S5, C4, F1
+  PASS  lambda2(complement) > sigma for C4, F1..F4
+  PASS  lambda2(complement(Si union Sj)) > sigma for all 25 ordered pairs
+  PASS  lambda2(complement(Sp*(Si,1))) > sigma for i=1..5
+[Proposition 3.6 / the family F of minimal forbidden induced subgraphs]
+  PASS  F consists exactly of: S1, S2, S3, S4, S5
+ALL CHECKS PASSED (exact arithmetic in Q(sqrt(5))).
