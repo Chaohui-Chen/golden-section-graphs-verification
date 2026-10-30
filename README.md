@@ -142,7 +142,7 @@ The seven exceptional graphs have order at most six, so the four passing graphs 
 - **Part (ii):** check $\lambda_2(\overline F)>\sigma$ for $C_4,F_1,\ldots,F_4$, all 25 ordered constructions $S_i\mathbin{\dot\cup}S_j$, and the five graphs
 
 $$
-\operatorname{Sp}^{*}(S_i,1)
+\mathrm{Sp}^{*}(S_i,1)
 =(K_1\vee S_i)\mathbin{\dot\cup}K_1,
 \qquad 1\le i\le5.
 $$
