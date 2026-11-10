@@ -1,0 +1,20 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite this record."
+title: "Computational verification for graphs with second largest eigenvalue at most (√5−1)/2"
+type: software
+version: "1.0"
+authors:
+  - given-names: Chaohui
+    family-names: Chen
+  - given-names: Hangxi
+    family-names: Cha
+  - given-names: Haiying
+    family-names: Shan
+  - given-names: Muhuo
+    family-names: Liu
+abstract: "Computational verification programs and reference outputs accompanying the paper A complete characterization of graphs with second largest eigenvalue at most (√5−1)/2."
+keywords:
+  - graph theory
+  - second largest eigenvalue
+  - computational verification
